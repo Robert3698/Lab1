@@ -1,0 +1,27 @@
+ body
+ {background:#99ccff;
+ }
+
+ h2 {background: #9999ff;border-bottom: solid white 2px ;border-left:solid white 2px}
+ h3 {background: #9966cc;border-bottom: solid white 2px; border-right: solid white 2px}
+ form{
+ background: #cc99cc;
+ border:solid 2px; border-color:orange} 
+ 
+ div#tytul {border:solid white 2px; }
+ table{border:solid white 2px}
+ table tr{border:solid white 2px}
+ table td{border:solid white 2px;padding: 10px 10px}
+ h1{color: white; font-size:75px;text-align:center;line-height:70px}
+ h2::first-letter {font-size:35px}
+ p q{color:yellow; font-style:oblique}
+ tr:first-child{font-style:italic}
+div#cz2 p>span{font-style:oblique}
+h2.przy{color:white}
+h3.el h3,h4{border-left:solid white 3px;border-right: solid white 3px}
+h2 + h3{margin: -5px}
+tr:nth-child(odd){background:white}
+tr:nth-child(even){background:#9999ff}
+ul {list-style-image:url("diam.png")}
+h1 img{float:left;margin-left:20px}
+p img{float:right}
